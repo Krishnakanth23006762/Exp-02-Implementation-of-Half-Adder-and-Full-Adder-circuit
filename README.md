@@ -1,3 +1,5 @@
+# BY: KRISHNAKANTH
+# REGISTER NUMBER : 23006762
 # Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit
 
 # Implementation-of-Half-Adder-and-Full-Adder-circuit
@@ -36,19 +38,44 @@ Switch ON the main switch
 If the output is 1, then the led glows.
 ### 
 Program:
-/*
-Program to design a half adder and full adder circuit and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
-*/
+# Half Adder:
+```
+module halfadder(a,b,sum,carry);
+input a,b;
+output sum,carry;
+xor(sum,a,b);
+and(carry,a,b)
+endmodule
+```
+# Full Adder
+```
+module halfadder(a,b,c,sum,carry);
+input a,b,c;
+output sum,carry;
+xor(sum,a,b,c);
+assign carry=a&b | b&c | a&c
+endmodule
+```
 Logic symbol & Truthtable
 RTL realization
 
-### Output:
-### RTL
-### TIMING DIAGRAM
-
-
 ### TRUTH TABLE 
+Half Adder Circuit:
+![image](https://github.com/Krishnakanth23006762/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/138849446/84fe2dfb-ab2e-46b9-8689-e416047c8fc8)
+Full Adder Circuit:-
+![image](https://github.com/Krishnakanth23006762/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/138849446/69eb05f1-2112-4a3a-96a2-128846fc4446)
+
+### RTL
+Half Adder Circuit:
+![image](https://github.com/Krishnakanth23006762/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/138849446/b62d0b89-2ae1-4c66-a0db-b1f03ea0e16b)
+Full Adder Circuit:-
+![image](https://github.com/Krishnakanth23006762/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/138849446/b0ff4b9c-d7dc-4229-82df-d2866f9cc31e)
+
+### Output:
+Half Adder Circuit:-
+![image](https://github.com/Krishnakanth23006762/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/138849446/ab9575e1-695c-46e7-bc3b-ed2440e7d734)
+Full Adder Circuit:-
+![image](https://github.com/Krishnakanth23006762/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/138849446/6d94b0e2-bcd1-4d5f-a882-3a83f519bb8b)
 
 ### Result:
+To design a half adder and full adder circuit and verify its truth table in Quartus using Verilog programming.
