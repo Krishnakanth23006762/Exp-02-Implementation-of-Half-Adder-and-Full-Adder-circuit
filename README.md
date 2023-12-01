@@ -89,6 +89,8 @@ Half Adder Circuit:-
 ![image](https://github.com/Krishnakanth23006762/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/138849446/ab9575e1-695c-46e7-bc3b-ed2440e7d734)
 
 
+
+
 Full Adder Circuit:-
 ![image](https://github.com/Krishnakanth23006762/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/138849446/6d94b0e2-bcd1-4d5f-a882-3a83f519bb8b)
 
