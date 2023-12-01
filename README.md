@@ -35,10 +35,11 @@ Sum =A’B’Cin + A’BCin’ + ABCin + AB’Cin’ = A ⊕ B ⊕ Cin Carry = A
 
 Connect the supply (+5V) to the circuit
 Switch ON the main switch
-If the output is 1, then the led glows.
-### 
+If the output is 1, then the led glows. 
+
 Program:
 # Half Adder:
+
 ```
 module halfadder(a,b,sum,carry);
 input a,b;
@@ -50,6 +51,7 @@ endmodule
 
 
 # Full Adder
+
 ```
 module halfadder(a,b,c,sum,carry);
 input a,b,c;
@@ -62,23 +64,28 @@ endmodule
 
 ### TRUTH TABLE 
 Half Adder Circuit:
+
 ![image](https://github.com/Krishnakanth23006762/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/138849446/84fe2dfb-ab2e-46b9-8689-e416047c8fc8)
 
 
 Full Adder Circuit:-
+
 ![image](https://github.com/Krishnakanth23006762/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/138849446/69eb05f1-2112-4a3a-96a2-128846fc4446)
 
 
 ### RTL
 Half Adder Circuit:
+
 ![image](https://github.com/Krishnakanth23006762/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/138849446/b62d0b89-2ae1-4c66-a0db-b1f03ea0e16b)
 
 
 Full Adder Circuit:-
+
 ![image](https://github.com/Krishnakanth23006762/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/138849446/b0ff4b9c-d7dc-4229-82df-d2866f9cc31e)
 
 ### Output:
 Half Adder Circuit:-
+
 ![image](https://github.com/Krishnakanth23006762/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/138849446/ab9575e1-695c-46e7-bc3b-ed2440e7d734)
 
 
